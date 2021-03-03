@@ -1,12 +1,12 @@
 {
-  "name": "enterprise-auth",
+  "name": "@alstradocs/enterprise-auth",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist",
-    "enterprise-core"
+    "enterprise-auth"
   ],
   "scripts": {
     "dev": "webpack --mode development",
@@ -18,7 +18,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@alstradocs/enterprise-core": "^1.0.0"
+    "@alstradocs/enterprise-core": "^1.0.0",
+    "@types/redux": "^3.6.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-observable": "^1.2.0",
+    "rxjs": "^6.6.6"
   },
   "devDependencies": {
     "@types/jest": "^26.0.20",

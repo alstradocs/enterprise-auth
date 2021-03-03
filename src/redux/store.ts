@@ -9,7 +9,7 @@ const rootReducer = combineReducers({
 
 export type StateType = ReturnType<typeof rootReducer>;
 export function configureStore() {
-	const middleware = [];
+	const middleware: any[] = [];
 	// middleware.push(thunk);
   
 	// if (process.env.NODE_ENV !== 'production') {

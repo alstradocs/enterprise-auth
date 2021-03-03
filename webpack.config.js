@@ -8,7 +8,7 @@ module.exports = {
         path: path.resolve(__dirname, "dist"),
         filename:'[name].js',
         libraryTarget: 'umd',
-        library: 'AlstradocsBusinessService',
+        library: 'AlstradocsEnterpriseAuth',
         umdNamedDefine: true
     },
     resolve: {
